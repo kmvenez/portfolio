@@ -9,7 +9,10 @@ import SignUp from './components/SignUp/SignUp'
 import SignIn from './components/SignIn/SignIn'
 import SignOut from './components/SignOut/SignOut'
 import ChangePassword from './components/ChangePassword/ChangePassword'
+
 import Portfolio from './components/Portfolio/Portfolio'
+import About from './About'
+import Contact from './Contact'
 
 class App extends Component {
   constructor () {
@@ -63,6 +66,12 @@ class App extends Component {
           )} />
           <Route path='/portfolio' render={() => (
             <Portfolio msgAlert={this.msgAlert} setUser={this.setUser} />
+          )} />
+          <Route path='/about' render={() => (
+            <About msgAlert={this.msgAlert} setUser={this.setUser} />
+          )} />
+          <Route path='/contact' render={() => (
+            <Contact msgAlert={this.msgAlert} setUser={this.setUser} />
           )} />
 
           <AuthenticatedRoute user={user} path='/sign-out' render={() => (

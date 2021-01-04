@@ -11,9 +11,9 @@ const authenticatedOptions = (
 
 const unauthenticatedOptions = (
   <Fragment>
-    <Nav.Link href="#sign-up">Sign Up</Nav.Link>
-    <Nav.Link href="#sign-in">Sign In</Nav.Link>
     <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+    <Nav.Link href="#about">About</Nav.Link>
+    <Nav.Link href="#contact">Contact</Nav.Link>
   </Fragment>
 )
 
@@ -26,7 +26,7 @@ const alwaysOptions = (
 const Header = ({ user }) => (
   <Navbar bg="primary" variant="dark" expand="md">
     <Navbar.Brand href="#">
-      react-auth-template
+      katiecodes
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
