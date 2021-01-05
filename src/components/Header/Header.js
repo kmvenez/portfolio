@@ -11,7 +11,7 @@ const alwaysOptions = (
 )
 
 const Header = () => (
-  <Navbar bg="dark" variant="dark" expand="md">
+  <Navbar collapseOnSelect bg="dark" variant="dark" expand="md">
     <Navbar.Brand href="#">
       <b>katiecodes</b>
     </Navbar.Brand>
