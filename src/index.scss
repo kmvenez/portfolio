@@ -1,6 +1,44 @@
 @import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
   align-items: center;
   text-align: center;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+footer {
+  text-align: center;
+  align-items: center;
+}
+#homepage {
+  height: 550px;
+  width: auto;
+}
+
+#robo {
+  height: 300px;
+  width: auto;
+}
+
+#name {
+  font-family: 'Shrikhand', cursive;
+}
+
+// #computerimg {
+//   height: 250px;
+//   width: auto;
+//   padding: -500px;
+// }
+//
+#contact {
+  padding: 50px 10px 10px 10px;
+  text-align: center;
+  align-items: center;
 }
