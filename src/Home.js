@@ -22,7 +22,6 @@ function Home (props) {
                   <p>{'Bootstrap? Check.  High quality vector images you don\'t even have to pay for? Double check.'}</p>
                 </Card.Text>
                 <Card.Link href="#about">My Skills</Card.Link>
-
               </Card.Body>
             </Card>
           </div>
@@ -59,7 +58,6 @@ function Home (props) {
           </div>
         </div>
       </div>
-
     </div>
   )
 }
