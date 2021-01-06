@@ -1,20 +1,11 @@
 @import '~bootstrap/scss/bootstrap';
-@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
 
 body {
   align-items: center;
   text-align: center;
   background-color: white;
-  font-family: 'Roboto', sans-serif;
-}
-
-h1 {
-  text-shadow: 1px 4px 3px rgba(0,0,0,0.3);
-  font-family: 'Space Grotesk', sans-serif;
 }
 
 footer {
@@ -25,6 +16,7 @@ footer {
 
 p {
   font-size: 13px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #homepage {
@@ -38,15 +30,9 @@ p {
 }
 
 #name {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Lato', sans-serif;
 }
 
-// #computerimg {
-//   height: 250px;
-//   width: auto;
-//   padding: -500px;
-// }
-//
 #contact {
   padding: 50px 10px 10px 10px;
   text-align: center;
@@ -57,11 +43,10 @@ p {
   box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
 }
 
-.card-title {
-  font-family: 'Playfair Display', serif;
-}
-
 #logo {
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-  font-family: 'Space Grotesk', sans-serif;
+}
+
+#bio {
+  font-size: 15px;
 }

@@ -4,13 +4,12 @@ import Card from 'react-bootstrap/Card'
 function Home (props) {
   return (
     <div>
-      <img src="https://i.imgur.com/ZhOGxki.png" className="img-fluid" id="homepage" alt="Responsive image"></img>
+      <img src="https://i.imgur.com/ZhOGxki.png" className="img-fluid" id="homepage" alt="image of girl waving"></img>
       <h1 id="name">Hi, I’m Katie. 👋</h1>
-      <p>I’m a Shakespearean-trained actress turned Full-Stack Software Engineer.  I’ve done everything from leading tours at Radio City Music Hall (ask me about the time I yelled at G-Eazy) to tech recruiting for a startup acquired by Microsoft.  At the end of the day, all of my stories and experiences have the same theme: I love a good process.  I am methodical, detail-oriented and hungry for my next challenge (and tacos) If you’re looking for someone who knows web development and the hiring process with technical expertise – let’s chat.</p>
+      <p id="bio">I’m a former Shakespearean-trained actress turned Full-Stack Software Engineer (I studied at and completed the Software Engineering Immersive at General Assembly) I’ve done everything from leading tours at Radio City Music Hall to tech recruiting for a startup acquired by Microsoft.  If you’re looking for someone who knows web development and the hiring process with technical expertise – let’s chat.</p>
 
       <div className="container">
         <div className="row row-cols-2">
-
           <div className="col">
             <Card style={{ width: '18rem' }}>
               <Card.Body id="card">
@@ -20,7 +19,7 @@ function Home (props) {
                 </svg></Card.Title>
                 <Card.Subtitle className="mb-2 text-muted"><i>What does that mean?</i></Card.Subtitle>
                 <Card.Text>
-                BootStrap? Check.  High Quality vector images you dont have to pay for? Double check.
+                  <p>{'Bootstrap? Check.  High quality vector images you don\'t even have to pay for? Double check.'}</p>
                 </Card.Text>
                 <Card.Link href="#about">My Skills</Card.Link>
 
@@ -36,9 +35,9 @@ function Home (props) {
                 </svg></Card.Title>
                 <Card.Subtitle className="mb-2 text-muted"><i>What does that mean?</i></Card.Subtitle>
                 <Card.Text>
-                MongoDB? More like Mongo Dont Bother.  Theres no documentation I cant figure out.
+                  <p>{'MongoDB? More like Mongo Don\'t Bother. (Yes, my dad jokes get worse than that) There\'s no documentation I can\'t figure out.'}</p>
                 </Card.Text>
-                <Card.Link href="#about">My Skills</Card.Link>
+                <Card.Link href="#portfolio">View My Work</Card.Link>
               </Card.Body>
             </Card>
           </div>
@@ -52,9 +51,9 @@ function Home (props) {
                 </svg></Card.Title>
                 <Card.Subtitle className="mb-2 text-muted"><i>What does that mean?</i></Card.Subtitle>
                 <Card.Text>
-                I began my career in tech recruiting for NYC, Seattle and Switzerlands top startups.  Itll get done with a smile, on time and under budget.
+                  <p>{'I began my career in tech recruiting for NYC, Seattle and Switzerland\'s top startups.  It\'ll get done on time and with a smile.'}</p>
                 </Card.Text>
-                <Card.Link href="#about">My Skills</Card.Link>
+                <Card.Link href="#resume">My Resume</Card.Link>
               </Card.Body>
             </Card>
           </div>
