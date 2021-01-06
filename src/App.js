@@ -8,6 +8,7 @@ import Header from './components/Header/Header'
 import Portfolio from './components/Portfolio/Portfolio'
 import About from './About'
 import Home from './Home'
+import Resume from './ResumeRender'
 
 class App extends Component {
   constructor () {
@@ -59,10 +60,14 @@ class App extends Component {
           <Route path='/about' render={() => (
             <About msgAlert={this.msgAlert} setUser={this.setUser} />
           )} />
+          <Route path='/resume' render={() => (
+            <Resume msgAlert={this.msgAlert} setUser={this.setUser} />
+          )} />
 
           <Route exact path='/' render={() => (
             <Home msgAlert={this.msgAlert} setUser={this.setUser} />
           )} />
+
         </main>
 
       </Fragment>

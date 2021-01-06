@@ -7,12 +7,13 @@ const alwaysOptions = (
     <Nav.Link href="#/">Home</Nav.Link>
     <Nav.Link href="#portfolio">Portfolio</Nav.Link>
     <Nav.Link href="#about">Skills</Nav.Link>
+    <Nav.Link href="#resume">Resume</Nav.Link>
   </Fragment>
 )
 
 const Header = () => (
-  <Navbar collapseOnSelect bg="dark" variant="dark" expand="md">
-    <Navbar.Brand href="#">
+  <Navbar collapseOnSelect id="navbar" bg="dark" variant="dark" expand="md" className="nav justify-content-center">
+    <Navbar.Brand href="#/" id="logo">
       <b>katiecodes</b>
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />

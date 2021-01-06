@@ -1,6 +1,9 @@
 @import '~bootstrap/scss/bootstrap';
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
 
 body {
   align-items: center;
@@ -10,13 +13,20 @@ body {
 }
 
 h1 {
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  text-shadow: 1px 4px 3px rgba(0,0,0,0.3);
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 footer {
   text-align: center;
   align-items: center;
+  font-size: 12px;
 }
+
+p {
+  font-size: 13px;
+}
+
 #homepage {
   max-height: 550px;
   max-width: auto;
@@ -28,7 +38,7 @@ footer {
 }
 
 #name {
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Inconsolata', monospace;
 }
 
 // #computerimg {
@@ -41,4 +51,17 @@ footer {
   padding: 50px 10px 10px 10px;
   text-align: center;
   align-items: center;
+}
+
+#card {
+  box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+}
+
+.card-title {
+  font-family: 'Playfair Display', serif;
+}
+
+#logo {
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  font-family: 'Space Grotesk', sans-serif;
 }
