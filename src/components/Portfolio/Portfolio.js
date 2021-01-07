@@ -3,13 +3,13 @@ import React from 'react'
 function Portfolio (props) {
   return (
     <div>
-      <br/><h1><b>General Assembly Projects</b></h1>
+      <br/><h1 id="ga"><b>General Assembly Projects</b></h1>
       <p>Please note if prompted, <b>dummy login info:</b> user - katie@katie.com, PW - katie</p>
       <div className="card-deck">
         <div className="card">
           <img src="https://i.imgur.com/uD7JOxI.png" className="img-fluid" alt="screenshot of login page"></img>
           <div className="card-body">
-            <h5 className="card-title"><b>Project One (Capstone)</b></h5>
+            <h5 className="card-title"><b>Project One</b> (Capstone)</h5>
             <p className="card-text"><b>Summary:</b> Merchzoid was created with user needs at the top of the list. With a few clicks of a button, upload your old merch and pocket the spare change.</p>
             <p><b>Tech:</b> React, React Router, Bootstrap, Heroku, Express, MongoDB, IntelliTicks, Javascript, HTML, SCSS.</p>
             <p><a target="_blank" rel="noopener noreferrer" href="https://kmvenez.github.io/merchzoid-client/#/">GitHub: Merchzoid Live</a></p>
@@ -21,7 +21,7 @@ function Portfolio (props) {
         <div className="card">
           <img src="https://i.imgur.com/gra5PhU.png" className="img-fluid" alt="screenshot of login page"></img>
           <div className="card-body">
-            <h5 className="card-title"><b>Project Two (Team)</b></h5>
+            <h5 className="card-title"><b>Project Two</b> (Team)</h5>
             <p className="card-text"><b>Summary:</b> Reviewflix is your one-stop-shop for all things Netflix.  View fellow film junkie’s thoughts who already took the time to watch that show or movie before you.</p>
             <p><b>Tech:</b> React, React Router, Express, Heroku, MongoDB, Javascript, HTML, SCSS.</p>
             <p><a target="_blank" rel="noopener noreferrer" href="https://did-you-restart.github.io/reviewflix-client/#/">GitHub: REVIEWFLIX Live</a></p>

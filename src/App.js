@@ -54,6 +54,9 @@ class App extends Component {
         ))}
 
         <main className="container">
+          <Route exact path='/' render={() => (
+            <Home msgAlert={this.msgAlert} setUser={this.setUser} />
+          )} />
           <Route path='/portfolio' render={() => (
             <Portfolio msgAlert={this.msgAlert} setUser={this.setUser} />
           )} />
@@ -63,11 +66,6 @@ class App extends Component {
           <Route path='/resume' render={() => (
             <Resume msgAlert={this.msgAlert} setUser={this.setUser} />
           )} />
-
-          <Route exact path='/' render={() => (
-            <Home msgAlert={this.msgAlert} setUser={this.setUser} />
-          )} />
-
         </main>
 
       </Fragment>
