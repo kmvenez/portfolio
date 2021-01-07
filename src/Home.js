@@ -21,7 +21,7 @@ function Home (props) {
                 </svg></Card.Title>
                 <Card.Subtitle id="subtitle" className="mb-2 text-muted"><i>What does that mean?</i></Card.Subtitle>
                 <Card.Text>
-                  <p>{'Bootstrap? Check.  High quality vector images you don\'t even have to pay for? Double check.'}</p>
+                  <p id="cardbody1">{'Bootstrap? Check.  High quality vector images you don\'t even have to pay for? Double check.'}</p>
                 </Card.Text>
                 <Card.Link href="#about">My Skills</Card.Link>
 
@@ -37,9 +37,9 @@ function Home (props) {
                 </svg></Card.Title>
                 <Card.Subtitle id="subtitle" className="mb-2 text-muted"><i>What does that mean?</i></Card.Subtitle>
                 <Card.Text>
-                  <p>{'MongoDB? More like Mongo Don\'t Bother. (Yes, my dad jokes get worse than that) There\'s no documentation I can\'t figure out.'}</p>
+                  <p id="cardbody2">{'MongoDB? More like Mongo Don\'t Bother. (Yes, my dad jokes get worse than that) There\'s no documentation I can\'t figure out.'}</p>
                 </Card.Text>
-                <Card.Link href="#portfolio">View My Work</Card.Link>
+                <Card.Link href="#portfolio">My Work</Card.Link>
               </Card.Body>
             </Card>
           </div>
@@ -53,7 +53,7 @@ function Home (props) {
                 </svg></Card.Title>
                 <Card.Subtitle id="subtitle" className="mb-2 text-muted"><i>What does that mean?</i></Card.Subtitle>
                 <Card.Text>
-                  <p>{'I began my career in tech recruiting for NYC, Seattle and Switzerland\'s top startups.  It\'ll get done on time and with a smile.'}</p>
+                  <p id="cardbody3">{'I began my career in tech recruiting for NYC, Seattle and Switzerland\'s top startups.  It\'ll get done on time and with a smile.'}</p>
                 </Card.Text>
                 <Card.Link href="#resume">My Resume</Card.Link>
               </Card.Body>

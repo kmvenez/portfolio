@@ -12,7 +12,7 @@ const alwaysOptions = (
 )
 
 const Header = () => (
-  <Navbar collapseOnSelect id="navbar" bg="dark" variant="dark" expand="md" className="nav justify-content-center">
+  <Navbar collapseOnSelect id="navbar" expand="md" className="nav justify-content-center">
     <Navbar.Brand href="#/" id="logo">
       <b>katiecodes</b>
     </Navbar.Brand>
