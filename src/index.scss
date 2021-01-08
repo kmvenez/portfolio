@@ -24,6 +24,11 @@ h1 {
   font-family: 'Lato', sans-serif;
 }
 
+h4 {
+  margin: 0 auto;
+  float: none;
+}
+
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -73,6 +78,7 @@ border: none;
 }
 
 #ga, #about {
+  float: none;
   background-color: black;
   margin: 0 auto;
   color: #00FF00;
