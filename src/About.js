@@ -7,7 +7,8 @@ function About (props) {
       <img aria-hidden='true' src="https://i.imgur.com/9MoSuV9.png" className="img-fluid" id="robo" alt="cute smiling robot"></img><br/><br/>
       <h4 id="about"><b>{'$ Things I\'m good at:'}</b></h4>
       <b>Languages:</b> JavaScript, HTML, CSS, SaSS, Python, SQL, ShellScripting via CLI for Linux.<br/>
-      <b>Tools & Extensions:</b> JSX, Git, JSON, CLI Git, Mongoose, Express, PostgresQL, Lighthouse.<br/>
+      <b>Tools & Extensions:</b> JSX, Git, JSON, CLI Git, Mongoose, Express, PostgresQL.<br/>
+      <b>Accessibility:</b> WCAG 2.1, Mac/iOS VoiceOver, Lighthouse.<br/>
       <b>Databases:</b> NoSQL, SQL.<br/>
       <b>API Hosting:</b> Heroku.<br/>
       <b>Libraries:</b> Bootstrap, React Bootstrap.<br/>

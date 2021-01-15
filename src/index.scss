@@ -90,12 +90,13 @@ border: none;
 }
 
 #ga, #about {
+  margin: 0 auto;
   float: none;
+  text-align: center;
   background-color: black;
   margin: 0 auto;
   color: #00FF00;
   padding: 10px;
-  float: none;
   animation: type 3s steps(29);
   overflow:hidden;
   white-space:nowrap;
