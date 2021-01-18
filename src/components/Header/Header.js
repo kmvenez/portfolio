@@ -7,7 +7,7 @@ const alwaysOptions = (
     <Nav.Link href="#/">Home</Nav.Link>
     <Nav.Link href="#portfolio">Portfolio</Nav.Link>
     <Nav.Link href="#about">Skills</Nav.Link>
-    <Nav.Link href="#resume">Resume</Nav.Link>
+    <Nav.Link href="#resume">Resume & Certifications</Nav.Link>
   </Fragment>
 )
 
